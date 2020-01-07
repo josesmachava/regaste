@@ -10,4 +10,5 @@ from .models import  User
 class UserAdmin(admin.ModelAdmin):
     list_display = ['phone_number']
 
+admin.site.register(User, UserAdmin)
 

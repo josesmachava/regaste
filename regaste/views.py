@@ -6,3 +6,8 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, 'index.html')
+
+
+
+def purchase(request, pk):
+    return render(request, 'resgate/purchase.html')

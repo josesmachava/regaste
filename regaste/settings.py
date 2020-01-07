@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'movie',
     'account',
     'sass_processor',
+    'crispy_forms',
+
 ]
 SITE_ID = 1
 
