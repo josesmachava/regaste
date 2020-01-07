@@ -1,60 +1,14 @@
 {% load static %}
+<nav>
+    <a href=""><h1><a href="#"><img class="logo" src="{% static "images/logo.jpg" %}" alt="preco logo"></a></h1></a>
 
-<script  src="{% static 'javascript/navegation.js' %}"></script>
+    <ul>
+        <li>
+            <a href="">criar conta</a>
+        </li>
 
-
-
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light desktop-menu" >
-    <div class="container">
-        <a href=""><h1><a href="#"><img class="logo" src="{% static "img/logo.png" %}" alt="preco logo"></a></h1></a>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <div class="navbar-nav mr-auto">
-            <input type="search" placeholder="pesquisar" style="color: #fff">
-        </div>
-         {% if user.is_authenticated %}
-        <ul class="navbar-nav">
-            <li class="shop-cart"><a href="#"><i class="fas fa-shopping-cart"></i>
-
-
-
-
-
-            </a></li>
-            <div class="dropdown">
-  <li class=" dropdown-toggle user"id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <i class="fas fa-user"></i>
-  </li>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">n
-        <a class="dropdown-item" href="#">Logout</a>
-      </div>
-    </div>
-
-        </ul>
-
-
-
-
-
-            </a></li>
-            <button  class="btn btn-light siginupButton" style="color: #3949ab;"><a href="#" title="" >Entrar</a></button>
-            <button  class="btn btn-primary siginupButton" ><a href="#" title="" class="create-account" >Criar conta</a></button>
-
-
-        </ul>
-
-    </div>
-
-    </div>
-
-
-
-    </div>
-   </nav>
-
+        <li>
+            <a href="">entrar</a>
+        </li>
+    </ul>
+</nav>

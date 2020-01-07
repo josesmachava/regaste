@@ -23,12 +23,9 @@ from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     path('signin', views.signin, name="signin"),
-    path('company', views.company, name="company"),
     path("signup", views.signup, name="signup"),
-    path("confirm", views.confirm, name="confirm"),
     path("logout", views.logout_view, name="logout"),
 
-    path("profile", views.profile, name="profile"),
     path('', include('django.contrib.auth.urls')),
 
 

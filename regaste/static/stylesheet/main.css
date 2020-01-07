@@ -1,0 +1,8 @@
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.movie img{
+    width: 300px;
+}

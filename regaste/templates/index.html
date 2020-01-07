@@ -22,6 +22,7 @@
 {% block styles %}
 {#    only include css  files needed for thi page bootstap and other libs are add in base template #}
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "stylesheet/main.css" %}">
 {% endblock %}
 
 
@@ -34,7 +35,7 @@
 {% block content %}
 
 <main>
-           {% include "regaste/layout/navegation.html" %}
+      {% include "resgate/layout/navegation.html" %}
 
 
        <header>
@@ -42,43 +43,29 @@
        </header>
 
         <section class="movies">
-            <div class="container-fluid">
-                <div class="row">
-                         <div class="col-md-3">
-                             <div class="movie">
+
+                             <section class="movie">
                                   <img src="{% static "images/poster.jpg" %}" alt="movies">
                                  <h1>Hello</h1>
-                             </div>
+                             </section>
 
 
-                </div>
-                      <div class="col-md-3">
-                             <div class="movie">
+            <section class="movie">
                                   <img src="{% static "images/poster.jpg" %}" alt="movies">
                                  <h1>Hello</h1>
-                             </div>
+                             </section>
 
-
-                </div>
-                      <div class="col-md-3">
-                             <div class="movie">
+            <section class="movie">
                                   <img src="{% static "images/poster.jpg" %}" alt="movies">
                                  <h1>Hello</h1>
-                             </div>
+                             </section>
 
-
-                </div>
-                      <div class="col-md-3">
-                             <div class="movie">
+            <section class="movie">
                                   <img src="{% static "images/poster.jpg" %}" alt="movies">
                                  <h1>Hello</h1>
-                             </div>
+                             </section>
 
 
-                </div>
-                   
-                </div>
-            </div>
 
         </section>
 </main>
