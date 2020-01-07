@@ -1,9 +1,7 @@
 {% extends "resgate/layout/base.html" %}
 {% load static %}
 
-
-
-
+{% load sass_tags %}
 {% comment %}
 
 {% endcomment %}
@@ -22,7 +20,7 @@
 {% block styles %}
 {#    only include css  files needed for thi page bootstap and other libs are add in base template #}
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static "stylesheet/main.css" %}">
+    <link rel="stylesheet" href="{% sass_src 'stylesheet/main.scss' %}">
 {% endblock %}
 
 
@@ -42,7 +40,7 @@
 
        </header>
 
-        <section class="movies">
+        <section class="flex movies">
 
                              <section class="movie">
                                   <img src="{% static "images/poster.jpg" %}" alt="movies">
@@ -52,7 +50,8 @@
 
             <section class="movie">
                                   <img src="{% static "images/poster.jpg" %}" alt="movies">
-                                 <h1>Hello</h1>
+                                  <h1>Titulo</h1>
+                                   <button>comprar 150Mt</button>
                              </section>
 
             <section class="movie">
