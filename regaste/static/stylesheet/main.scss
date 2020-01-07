@@ -9,7 +9,12 @@ body {
 main {
     flex: 1;
 }
+.flex-column{
 
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
 
 .flex{
    display: flex;
@@ -39,11 +44,48 @@ nav{
 .movies{
 
     justify-content: space-around;
-    .movie img{
-      width: 300px;
-    }
+
+}
+.purchase{
+  justify-content: center;
+  align-content: center;
+  .payment{
+
+  }
+}
+.cover{
+  width: 300px;
 }
 
+
+button {
+    border: none;
+    background-color: rgb(7, 71, 166);
+    color: white;
+    height: 40px;
+    width: auto;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+form{
+    input[type="text"]{
+      width: -webkit-fill-available;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #dbe2e8;
+    font-size: 14px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(46,60,73,.05);
+    box-shadow: 0 2px 2px 0 rgba(46,60,73,.05);
+    border-radius: 2px;
+    color: #2e3d49;
+    margin: 10px;
+    border-radius: 4px;
+    height: 44px;
+
+    }
+}
 footer{
   display: flex;
   flex-wrap: wrap;
@@ -59,4 +101,3 @@ footer{
     }
   }
 }
-
