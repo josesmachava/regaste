@@ -31,9 +31,9 @@
 
 
 {% block content %}
+{% include "resgate/layout/navegation.html" %}
 
 <main>
-      {% include "resgate/layout/navegation.html" %}
 
 
        <header>
@@ -67,7 +67,11 @@
 
 
         </section>
+
+
 </main>
+{% include "resgate/layout/footer.html" %}
+
 {% endblock %}
 
 

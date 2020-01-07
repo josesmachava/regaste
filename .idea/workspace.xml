@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c74cf698-0483-4ea4-b563-e7c73234176f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/regaste/static/stylesheet/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regaste/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regaste/static/stylesheet/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regaste/static/javascript/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/static/javascript/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regaste/static/stylesheet/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/static/stylesheet/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regaste/static/stylesheet/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/static/stylesheet/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regaste/static/stylesheet/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/static/stylesheet/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/regaste/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regaste/templates/resgate/layout/navegation.html" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/templates/resgate/layout/navegation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regaste/templates/resgate/layout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/templates/resgate/layout/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regaste/templates/resgate/layout/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/templates/resgate/layout/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,7 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -125,7 +130,7 @@
       <workItem from="1578316709751" duration="470000" />
       <workItem from="1578317437827" duration="120000" />
       <workItem from="1578317558727" duration="2630000" />
-      <workItem from="1578394968099" duration="3337000" />
+      <workItem from="1578394968099" duration="6227000" />
     </task>
     <servers />
   </component>
@@ -141,33 +146,33 @@
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="767" y="295" width="424" height="513" key="FileChooserDialogImpl/49.27.1871.1053@49.27.1871.1053" timestamp="1578317555838" />
-    <state width="1825" height="278" key="GridCell.Tab.0.bottom" timestamp="1578398147139">
+    <state width="1825" height="278" key="GridCell.Tab.0.bottom" timestamp="1578398324401">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state width="1825" height="278" key="GridCell.Tab.0.bottom/49.27.1871.1053@49.27.1871.1053" timestamp="1578398147139" />
-    <state width="1825" height="278" key="GridCell.Tab.0.center" timestamp="1578398147139">
+    <state width="1825" height="278" key="GridCell.Tab.0.bottom/49.27.1871.1053@49.27.1871.1053" timestamp="1578398324401" />
+    <state width="1825" height="278" key="GridCell.Tab.0.center" timestamp="1578398324401">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state width="1825" height="278" key="GridCell.Tab.0.center/49.27.1871.1053@49.27.1871.1053" timestamp="1578398147139" />
-    <state width="1825" height="278" key="GridCell.Tab.0.left" timestamp="1578398147139">
+    <state width="1825" height="278" key="GridCell.Tab.0.center/49.27.1871.1053@49.27.1871.1053" timestamp="1578398324401" />
+    <state width="1825" height="278" key="GridCell.Tab.0.left" timestamp="1578398324401">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state width="1825" height="278" key="GridCell.Tab.0.left/49.27.1871.1053@49.27.1871.1053" timestamp="1578398147139" />
-    <state width="1825" height="278" key="GridCell.Tab.0.right" timestamp="1578398147139">
+    <state width="1825" height="278" key="GridCell.Tab.0.left/49.27.1871.1053@49.27.1871.1053" timestamp="1578398324401" />
+    <state width="1825" height="278" key="GridCell.Tab.0.right" timestamp="1578398324401">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state width="1825" height="278" key="GridCell.Tab.0.right/49.27.1871.1053@49.27.1871.1053" timestamp="1578398147139" />
-    <state x="473" y="187" key="SettingsEditor" timestamp="1577917318966">
+    <state width="1825" height="278" key="GridCell.Tab.0.right/49.27.1871.1053@49.27.1871.1053" timestamp="1578398324401" />
+    <state x="473" y="187" key="SettingsEditor" timestamp="1578400080096">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state x="473" y="187" key="SettingsEditor/49.27.1871.1053@49.27.1871.1053" timestamp="1577917318966" />
+    <state x="473" y="187" key="SettingsEditor/49.27.1871.1053@49.27.1871.1053" timestamp="1578400080096" />
     <state x="640" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578394968677">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="640" y="380" key="com.intellij.ide.util.TipDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1578394968677" />
-    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1578322379182">
+    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1578400538679">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1578322379182" />
+    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1578400538679" />
   </component>
 </project>
