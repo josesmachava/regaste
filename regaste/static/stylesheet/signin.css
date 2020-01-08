@@ -1,0 +1,14 @@
+form img {
+  display: block;
+  margin: 0 auto; }
+
+form button {
+  display: block !important;
+  margin: 0 auto;
+  font-size: 18px;
+  width: 240px; }
+
+form p {
+  text-align: center; }
+
+/*# sourceMappingURL=signin.css.map */

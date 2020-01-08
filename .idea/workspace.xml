@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c74cf698-0483-4ea4-b563-e7c73234176f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regaste/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regaste/static/stylesheet/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/static/stylesheet/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regaste/static/stylesheet/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/static/stylesheet/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regaste/static/stylesheet/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/static/stylesheet/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regaste/templates/account/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/templates/account/signin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/regaste/templates/account/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/templates/account/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regaste/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regaste/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regaste/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regaste/templates/resgate/layout/navegation.html" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/templates/resgate/layout/navegation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +22,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -131,6 +131,7 @@
       <workItem from="1578317437827" duration="120000" />
       <workItem from="1578317558727" duration="2630000" />
       <workItem from="1578394968099" duration="9460000" />
+      <workItem from="1578490583342" duration="1730000" />
     </task>
     <servers />
   </component>
@@ -170,13 +171,13 @@
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="473" y="187" key="SettingsEditor/49.27.1871.1053@49.27.1871.1053" timestamp="1578400080096" />
-    <state x="640" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578394968677">
+    <state x="640" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578490583117">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state x="640" y="380" key="com.intellij.ide.util.TipDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1578394968677" />
-    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1578402254382">
+    <state x="640" y="380" key="com.intellij.ide.util.TipDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1578490583117" />
+    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1578492621271">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1578402254382" />
+    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1578492621271" />
   </component>
 </project>
