@@ -8,7 +8,7 @@ from .models import  User
 
 
 class UserAdmin(admin.ModelAdmin):
-    list_display = ['phone_number']
+    list_display = ['first_name']
 
 admin.site.register(User, UserAdmin)
 

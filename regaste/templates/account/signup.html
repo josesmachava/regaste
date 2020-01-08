@@ -46,7 +46,7 @@
             <div class="sigin">
                 <form action="signup" method="post">
                     <h1 class=""><img src="{% static "images/logo.jpg" %}" alt="mahla logo"></h1>
-                    <p>Para comprar, cadastre-se no Mahla    <a href="{% url 'signin' %}">entrar</a></p>
+                    <p>Para comprar, cadastre-se no Mahla    <a href="{% url 'login' %}">entrar</a></p>
                     {% csrf_token %}
                     <input type="hidden" name="next" value="{{ next }}">
                     <div class="row">
@@ -56,7 +56,7 @@
 
                     </div>
 
-                    {{ form.phone_number|as_crispy_field }}    
+                    {{ form.número_de_telefone|as_crispy_field }}
 
                     <div class="row">
                             <div class="col-6">

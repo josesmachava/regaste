@@ -50,9 +50,9 @@ class User(AbstractUser):
     email = models.EmailField(_('email address'), blank=True)
     phone_regex = RegexValidator(regex=r'^\+?258?\d{9,13}$',
                                  message="O número de telefone deve ser digitado no formato: '+258849293949'. São permitidos até 13 dígitos.")
-    phone_number = models.CharField(validators=[phone_regex], max_length=13, blank=True, unique=True)  # validators should be a list
+    número_de_telefone = models.CharField(validators=[phone_regex], max_length=13, blank=True, unique=True)  # validators should be a list
 
-    USERNAME_FIELD = 'phone_number'
+    USERNAME_FIELD = 'número_de_telefone'
     REQUIRED_FIELDS = ['email']
 
     objects = UserManager()

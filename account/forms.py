@@ -8,7 +8,7 @@ from django.forms import ModelForm
 class SignUpForm(UserCreationForm):
     first_name = forms.CharField(label="Nome", widget=forms.TextInput(attrs={'placeholder': 'Nome'}), max_length=30,
                                  required=False)
-    phone_number = forms.CharField(label="Número de telefone",
+    número_de_telefone = forms.CharField(label="Número de telefone",
                                    widget=forms.TextInput(attrs={'placeholder': 'Número de telefone'}))
 
     password1 = forms.CharField(label='Senha', widget=forms.PasswordInput(attrs={'placeholder': 'Senha'}))
@@ -16,7 +16,7 @@ class SignUpForm(UserCreationForm):
 
     class Meta:
         model = User
-        fields = ('first_name', 'phone_number')
+        fields = ('first_name', 'número_de_telefone')
 
     @transaction.atomic
     def save(self):
