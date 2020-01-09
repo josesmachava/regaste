@@ -41,30 +41,15 @@
        </header>
 
         <section class="flex movies">
-
+       
+                    {% for movie in movies %}
                              <section class="movie">
-                                  <img class="cover" src="{% static "images/poster.jpg" %}" alt="movies">
-                                 <h1>Hello</h1>
+                                  <img class="cover" src="{% static "images/poster.jpg" %}" alt="{{ movie.title }}">
+                                 <h1><a href="{% url 'purchase' movie.id %}"></a>{{ movie.title }}</h1>
                              </section>
-
-
-            <section class="movie">
-                                  <img  class="cover" src="{% static "images/poster.jpg" %}" alt="movies">
-                                  <h1>Titulo</h1>
-                                   <button>comprar 150Mt</button>
-                             </section>
-
-            <section class="movie">
-                                  <img class="cover" src="{% static "images/poster.jpg" %}" alt="movies">
-                                 <h1>Hello</h1>
-                             </section>
-
-
-
-
+                    {% endfor %}
 
         </section>
-
 
 
 </main>
