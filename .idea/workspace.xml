@@ -3,27 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c74cf698-0483-4ea4-b563-e7c73234176f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0002_referral.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0003_auto_20191218_0018.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0004_auto_20191218_0033.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0005_auto_20191218_0047.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0006_auto_20191218_0050.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0007_auto_20191218_0054.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0008_auto_20191218_0054.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0009_auto_20191218_0057.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0010_auto_20191218_0058.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0011_auto_20191218_1705.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0012_auto_20191223_1331.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0013_auto_20200107_1319.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0014_auto_20200107_1332.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0015_auto_20200108_1452.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regaste/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regaste/templates/resgate/purchase.html" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/templates/resgate/purchase.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/regaste/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/regaste/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +129,7 @@
       <workItem from="1578317558727" duration="2630000" />
       <workItem from="1578394968099" duration="9460000" />
       <workItem from="1578490583342" duration="6033000" />
-      <workItem from="1578520962930" duration="9651000" />
+      <workItem from="1578520962930" duration="10232000" />
     </task>
     <servers />
   </component>
@@ -171,22 +153,22 @@
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="767" y="295" width="424" height="513" key="FileChooserDialogImpl/49.27.1871.1053@49.27.1871.1053" timestamp="1578317555838" />
-    <state width="1825" height="190" key="GridCell.Tab.0.bottom" timestamp="1578529217495">
+    <state width="1825" height="384" key="GridCell.Tab.0.bottom" timestamp="1578531282783">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state width="1825" height="190" key="GridCell.Tab.0.bottom/49.27.1871.1053@49.27.1871.1053" timestamp="1578529217495" />
-    <state width="1825" height="190" key="GridCell.Tab.0.center" timestamp="1578529217494">
+    <state width="1825" height="384" key="GridCell.Tab.0.bottom/49.27.1871.1053@49.27.1871.1053" timestamp="1578531282783" />
+    <state width="1825" height="384" key="GridCell.Tab.0.center" timestamp="1578531282782">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state width="1825" height="190" key="GridCell.Tab.0.center/49.27.1871.1053@49.27.1871.1053" timestamp="1578529217494" />
-    <state width="1825" height="190" key="GridCell.Tab.0.left" timestamp="1578529217494">
+    <state width="1825" height="384" key="GridCell.Tab.0.center/49.27.1871.1053@49.27.1871.1053" timestamp="1578531282782" />
+    <state width="1825" height="384" key="GridCell.Tab.0.left" timestamp="1578531282782">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state width="1825" height="190" key="GridCell.Tab.0.left/49.27.1871.1053@49.27.1871.1053" timestamp="1578529217494" />
-    <state width="1825" height="190" key="GridCell.Tab.0.right" timestamp="1578529217494">
+    <state width="1825" height="384" key="GridCell.Tab.0.left/49.27.1871.1053@49.27.1871.1053" timestamp="1578531282782" />
+    <state width="1825" height="384" key="GridCell.Tab.0.right" timestamp="1578531282783">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state width="1825" height="190" key="GridCell.Tab.0.right/49.27.1871.1053@49.27.1871.1053" timestamp="1578529217494" />
+    <state width="1825" height="384" key="GridCell.Tab.0.right/49.27.1871.1053@49.27.1871.1053" timestamp="1578531282783" />
     <state x="473" y="187" key="SettingsEditor" timestamp="1578400080096">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>

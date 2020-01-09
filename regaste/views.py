@@ -27,7 +27,7 @@ def purchase(request, pk):
             API_ENDPOINT = "https://xpayy.herokuapp.com/payment/"
             data = {
 
-                'contact':payment.phone_number,
+                'contact':payment.número_de_telefone,
                 'amount': movie.price,
                 'reference':secrets.token_hex(6),
                 'api_key': '9njrbcqty9ew3cyx4s6k7jvtab134rr6',
